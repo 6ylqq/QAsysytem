@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="QAsystem:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/QAsystem_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="QAsystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="QAsystem" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
