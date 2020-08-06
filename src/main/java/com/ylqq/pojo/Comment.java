@@ -7,13 +7,16 @@ import lombok.NoArgsConstructor;
 import java.security.Identity;
 import java.util.Date;
 
+/**
+ * @author ylqq
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 public class Comment {
-    private int commentID;/*评论主键*/
+    private int commentID;
     private int answerID;
-    private int id;/*评论者信息*/
+    private int id;
     private String name;
     private String identity;
     private Date commentTime;

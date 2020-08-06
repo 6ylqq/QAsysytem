@@ -6,13 +6,16 @@ import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
+/**
+ * @author ylqq
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 public class Answer {
-    private int answerID;/*主键*/
+    private int answerID;
     private int questionID;
-    private int id;/*回答者ID*/
+    private int id;
     private String name;
     private String identity;
     private String answer;
