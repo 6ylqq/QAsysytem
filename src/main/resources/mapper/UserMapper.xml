@@ -5,4 +5,6 @@
     <insert id="insert"></insert>
     <delete id="delete"></delete>
     <select id="findUserById" resultType="com.ylqq.pojo.User"></select>
+    <select id="findUserByEmail" resultType="com.ylqq.pojo.User"></select>
+    <select id="findAll" resultType="com.ylqq.pojo.User"></select>
 </mapper>
